@@ -1,23 +1,15 @@
 import './App.css';
-import logo from './img-jpg/Logo-CONECTANDO-PARA-EDUCAR.jpg'
+import NavigattionBar from './components/NavigattionBar';
+import PictureSlide from './components/PictureSlide';
+import Body from './components/Body';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavigattionBar />
+      <PictureSlide />
+      <Body />
     </div>
   );
 }
