@@ -11,28 +11,28 @@ export default function PictureSlide(props) {
         <div>
             <Carousel>
                 <Carousel.Item>
-                    <img src={img0}alt='img0'className='Photos' />
+                    <img src={img0} alt='img0' className='Photos' />
                     <Carousel.Caption>
                         <h3>Foto de prueba 0</h3>
                         <a>Estoy probando si les gusta</a>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src={img1}alt='img1'className='Photos' />
+                    <img src={img1} alt='img1' className='Photos' />
                     <Carousel.Caption>
                         <h3>Foto de prueba 1</h3>
                         <a>Estoy probando si les gusta</a>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src={img2}alt='img2'className='Photos' />
+                    <img src={img2} alt='img2' className='Photos' />
                     <Carousel.Caption>
                         <h3>Foto de prueba 2</h3>
                         <a>Estoy probando si les gusta</a>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src={img3}alt='img3'className='Photos' />
+                    <img src={img3} alt='img3' className='Photos' />
                     <Carousel.Caption>
                         <h3>Foto de prueba 3</h3>
                         <a>Estoy probando si les gusta</a>
